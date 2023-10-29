@@ -1,0 +1,36 @@
+h3{
+    color: #ff6a2a;
+}
+main .containerright {
+    width: 100%;
+    overflow: hidden;
+}
+
+main .imageright {
+    float: left;
+    width: 60%;
+    margin: 2%;
+}
+
+main .textright {
+    overflow: hidden;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1%;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content img {
+    margin-right: 0px;
+  }
+  .content p{
+    margin: 0;
+  }
